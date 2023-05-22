@@ -1,0 +1,13 @@
+{
+  "awsProfile": "default",
+  "policies": {
+    "path": "/does_not_exists",
+    "extension": ".scp.json"
+  },
+  "exceptions": {
+    "my_scp_file.scp.json": ["POLICY_SIZE_EXCEEDS_SCP_QUOTA"]
+  },
+  "logging": {
+    "level": "debug"
+  }
+}
